@@ -3,6 +3,7 @@ import { StyleSheet, Text, View } from 'react-native'
 import { Icon } from './components/atoms/Icon'
 import InputText from './components/atoms/InputText'
 import { useState } from 'react'
+import Button from './components/atoms/Button'
 
 export default function App() {
   const [value, setValue] = useState('')
@@ -23,6 +24,7 @@ export default function App() {
         placeholder="Password"
         onChangeText={(text: string) => setPassword(text)}
       />
+      <Button name="login" minWidth={100} />
       <StatusBar style="auto" />
     </View>
   )

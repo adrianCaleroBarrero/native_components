@@ -103,7 +103,7 @@ const styles = StyleSheet.create({
   },
   input: {
     paddingHorizontal: 10,
-    width: '80%',
+    width: '100%',
     backgroundColor: '#fff',
     justifyContent: 'flex-start',
     fontSize: 16,
